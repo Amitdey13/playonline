@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 60,
+            "database": "user_info",
+            "dialect": "MySQL",
+            "name": "mysql",
+            "password": "amit1234",
+            "port": 3306,
+            "server": "localhost",
+            "username": "Amitdey"
+        }
+    ]
+}

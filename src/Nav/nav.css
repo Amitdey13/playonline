@@ -1,0 +1,59 @@
+.topnav{
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    display: flex;
+    background-color: rgb(255, 140, 32);
+    align-items: center;
+    flex-direction: row;
+    top: 0px;
+    box-shadow: 0px 4px 10px grey;
+    z-index: 10;
+}
+.menu{
+    display: block;
+    width: 10%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 25px;
+    position: relative;
+    margin-left: 0px;
+}
+.home{
+    display: block;
+    width: 10%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 25px;
+    position: relative;
+}
+.Home{
+    color: #fff;
+}
+#home{
+    display: none;
+}
+.btn{
+    display: none;
+}
+li{
+    list-style: none;
+}
+.bttn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    padding: 7px 0px;
+    font-weight: 600;
+}
+.bttn:hover,.bttn:focus {
+    background-color: rgb(255, 189, 113);
+} 
+.active{
+    background-color: rgb(255, 189, 113);
+}

@@ -1,0 +1,103 @@
+.midSec{
+    position: relative;
+    display: flex;
+    width: 100%; 
+    min-height: 520px;
+}
+.list{
+    width: 17em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(223, 222, 222);
+}
+.menu-list{
+    position: relative;
+    width: inherit;
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    padding-top: 20px;
+}
+.main-sec{
+    position: relative;
+    width: 100%;
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+}
+.element{
+    width: inherit;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.home-list{
+    width: inherit;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5% 7%;
+    justify-content: center;
+    align-items: center;
+}
+.sps{
+    width: inherit;
+    flex-direction: column;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+.theme{
+    position: relative;
+    width: inherit;
+    display: inherit;
+    justify-content: center;
+    margin: 450px 0px 40px 0px;
+}
+.home-bttn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.home-icon{
+    display: block;
+    border-radius: 42%;
+    width: 100px;
+    height: 100px;
+}
+/* --- calculator --- */
+.switch{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 3px;
+}
+.display{
+    display: none;
+}
+/* --- tictactoe --- */
+.board-row{
+    display: flex;
+}
+.square{
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: none;
+}
+.mode{
+    cursor: pointer;
+}
+.footer{
+    margin-top: -21px;
+    position: relative;
+    height: 190px;
+    width: 100%;
+    background-color: rgb(173, 84, 0);
+    box-shadow: 0px -2px 10px grey;
+}
